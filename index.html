@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" href="images/logo.png" sizes="16x16">
 	<title> იმოგზაურე საქართველოში </title>
+	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="body">
 	<header class="header">
@@ -14,8 +17,8 @@
 			<a href="index.html">
 				<img class="logo" src="images/logo.png">
 			</a>
-			<nav class="navigation">
-				<ul>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
 					<li>
 						<a class="nav-home nav" href="index.html"> მთავარი </a>
 					</li>
@@ -42,6 +45,9 @@
 					</li>
 				</ul>
 			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
 		</div>
 
 		<div class="header-text">იპოვე შენი თავი გარეთ</div>
@@ -104,7 +110,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des3">
 				<img class="des-image" src="images/tours/lomismta.jpg" alt="lomismta">
 				<h1 class="h1-5">ლომისმთა</h1>
 				<h3 class="h3-6">ლომისმთის ბილიკზე  თქვენ შეგხვდებათ შერეული ტყეები, ლომისმთის მწვერვალი, ალპური მდელო და წმ. გიორგის სალოცავი.</h3>
@@ -114,7 +120,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des3">
 				<img class="des-image" src="images/tours/sasvano.jpg" alt="sasvano">
 				<h1 class="h1-5">სასვანოს ტბა</h1>
 				<h3 class="h3-6">სასვანოს ტბა მდებარეობს სამეგრელო ზემო სვანეთში მდინარე რიონის ხეობაში ზღვის დონიდან 2680 მეტრზე.</h3>
@@ -124,7 +130,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des3">
 				<img class="des-image" src="images/tours/arwivi.jpg" alt="arwivi">
 				<h1 class="h1-5">არწივის ხეობა</h1>
 				<h3 class="h3-7">არწივის ხეობა – ბუნების ძეგლი საქართველოში, მდებარეობს დედოფლისწყაროს მუნიციპალიტეტში, შედის ვაშლოვანის დაცული ტერიტორიების შემადგენლობაში.</h3>
@@ -134,7 +140,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des2">
 				<img class="des-image" src="images/tours/mijnisyure.jpg" alt="mijnisyure">
 				<h1 class="h1-5">მიჯნისყურე</h1>
 				<h3 class="h3-8">მიჯნისყურე - საბანაკე ადგილი ვაშლოვანის ნაკრძალში, ალაზნის ჭალის საქართველოს უკიდურესი სამხრეთ ნაწილი, სასაზღვრო ზონა.</h3>
@@ -144,7 +150,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des2">
 				<img class="des-image" src="images/tours/kaklisyure.jpg" alt="kaklisyure">
 				<h1 class="h1-5">კაკლისყურე</h1>
 				<h3 class="h3-7">კაკლის ყურე წარმოადგენს ნახევარკუნძულის ფორმის მქონე მდინარე ალაზანში შეჭრილ ყურეს სადაც შემორჩენილია კაკლის ბუნებრივი ვრცელი ჰაბიტატი.</h3>
@@ -154,7 +160,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des2">
 				<img class="des-image" src="images/tours/pantishara.jpg" alt="pantishara">
 				<h1 class="h1-5">პანტიშარა</h1>
 				<h3 class="h3-9">პანტიშარას ხეობა - ხეობისკენ მიმავალი გზა ერთმანეთისგან მკვეთრად განსხვავებულ ორი ლანდშაფტის მიჯნას წარმოადგენს.</h3>
@@ -164,7 +170,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des1">
 				<img class="des-image" src="images/tours/tetnuldi.jpg" alt="tetnuldi">
 				<h1 class="h1-5">თეთნულდი </h1>
 				<h3 class="h3-9">თეთნულდი — მწვერვალი საქართველოში, სამეგრელო-ზემო სვანეთის მხარეში, მესტიის მუნიციპალიტეტში.</h3>
@@ -174,7 +180,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des1">
 				<img class="des-image" src="images/tours/ushba.jpg" alt="ushba">
 				<h1 class="h1-6">უშბის ჩანჩქერი და მყინვარი</h1>
 				<h3 class="h3-9">უშბის ჩანჩქერი(შდუგრა) საქართველოში ყველაზე წყალუხვი ჩანჩქერია. მდებარეობს სვანეთში, სოფელ მაზერთან.</h3>
@@ -184,7 +190,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="des">
+			<div class="des des1">
 				<img class="des-image" src="images/tours/mazeri.jpg" alt="mazeri">
 				<h1 class="h1-5">მაზერი</h1>
 				<h3 class="h3-10">მაზერი — სოფელი საქართველოში, სამეგრელო-ზემო სვანეთის მხარის მესტიის მუნიციპალიტეტში.</h3>
@@ -200,26 +206,6 @@
 				<h3 class="h3-3">ყველას ნახვა</h3>
 			</a>
 		</div>
-
-		<!-- <footer class="footer">
-			<div class="footer-div">
-				<div>
-					<h1 class="h1-8">ბანაკი არის ყველგან, სადაც გსურთ დაბანაკება.</h1>
-					<h3 class="h3-11">აღმოაჩინეთ უნიკალური გამოცდილება ბუნების ნაკრძალებში, ფერმებში, ვენახებსა და საჯარო ბანაკებში, ხეების სახლებში, კაბინებში, მანქანის კემპინგში, პატარა სახლებში, კემპინგში, გასაშლელ კარვებში და სხვა.</h3>
-				</div>
-				<div class="foot-div">
-					<a class="col" href="index.html">მთავარი</a>
-					<a class="col" href="tours.html">ტურები</a>
-					<a class="col" href="hotel.html">სასტუმრო</a>
-					<a class="col" href="transporti.html">ტრანსპორტი</a>
-					<a class="col" href="travelcompany.html">ტურისტული კომპანიები</a>
-					<a class="col" href="contact.html">კონტაქტი</a>
-				</div>
-			</div>
-			<div>
-				<h1 class="h1-7">© 2021. ყველა უფლება დაცულია.</h1>
-			</div>
-		</footer> -->
 	</section>
 
 	<footer class="footer">
@@ -242,5 +228,12 @@
 			<h1 class="h1-7">© 2021. ყველა უფლება დაცულია.</h1>
 		</div>
 	</footer>
+
+	<button onclick="topFunction()" id="topToScroll">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<script src="js/top.js"></script>
+	<script src="js/burger.js"></script>
 </body>
 </html>

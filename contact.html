@@ -8,6 +8,7 @@
 	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 	<header class="header2">
@@ -15,8 +16,8 @@
 			<a href="index.html">
 				<img class="logo" src="images/logo.png">
 			</a>
-			<nav class="navigation">
-				<ul>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
 					<li>
 						<a class="nav-home nav" href="index.html"> მთავარი </a>
 					</li>
@@ -43,10 +44,15 @@
 					</li>
 				</ul>
 			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
 		</div>
+
+		<div class="header-text">იპოვე შენი თავი გარეთ</div>
 	</header>
 
-
+	
 	<form action="" method="post">
 			<div class="name-div">
 				<label class="name" for="name"> <i class="fas fa-user"></i> სახელი</label>
@@ -72,5 +78,12 @@
 			<button class="send" type="submit">SEND</button>
 			</div>
 	</form>
+
+	<button onclick="topFunction()" id="topToScroll">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<script src="js/top.js"></script>
+	<script src="js/burger.js"></script>
 </body>
 </html>

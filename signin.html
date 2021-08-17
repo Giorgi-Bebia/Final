@@ -8,6 +8,7 @@
 	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 	<header class="header2">
@@ -15,8 +16,8 @@
 			<a href="index.html">
 				<img class="logo" src="images/logo.png">
 			</a>
-			<nav class="navigation">
-				<ul>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
 					<li>
 						<a class="nav-home nav" href="index.html"> მთავარი </a>
 					</li>
@@ -43,7 +44,12 @@
 					</li>
 				</ul>
 			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
 		</div>
+
+		<div class="header-text">იპოვე შენი თავი გარეთ</div>
 	</header>
 
 
@@ -55,14 +61,13 @@
 			<label class="h1-22" for="psw"><b>პაროლი</b></label>
 			<input class="signin2" type="password" placeholder="შეიყვანეთ პაროლი" name="psw" required>
 
-			<button class="h1-22" type="submit">შესვლა</button>
+			<button class="h1-22 signinbutton" type="submit">შესვლა</button>
 			<label>
 				<input type="checkbox" checked="checked" name="remember"> დამიმახსოვრე
 			</label>
 		</div>
 
-		<div class="container" style="background-color:#f1f1f1">
-			<button type="button" class="cancelbtn">გაუქმება</button>
+		<div class="container">
 			<span class="psw ">არ გაქვთ ანგარიში? <a href="signup.html">რეგისტრაცია</a></span>
 		</div>
 	</form>
