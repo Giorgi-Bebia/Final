@@ -91,6 +91,7 @@
 		right: 25px;
 		top: 85px;
 		width: 200px;
+		z-index: 10;
 	}
 	.nav {
 		margin-top: 10px;
