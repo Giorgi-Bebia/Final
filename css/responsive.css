@@ -131,7 +131,7 @@
 }
 @media (max-width: 579px) {
 	.header-text {
-		font-size: 40px;
+		font-size: 33px;
 	}
 }
 @media (max-width: 414px) {
@@ -146,7 +146,8 @@
 	.h3-5 {
 		margin: 0 auto;
 		margin-top: 8px;
-		width: 310px;
+		max-width: 310px;
+		width: 100%;
 	}
 	.all {
 		margin-top: 0;
@@ -156,10 +157,15 @@
 		margin-top: 35px;
 	}
 	.section2 {
-		margin-top: 50px;
+		margin-top: 140px;
 	}
 	.tours-section2,
 	.maps {
 		height: 400px;
+	}
+}
+@media (max-width: 373px) {
+	.header-text {
+		font-size: 25px;
 	}
 }
