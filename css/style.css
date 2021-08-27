@@ -235,7 +235,7 @@ li {
 .h3-5 {
 	font-family: Archivo;
 	font-weight: Regular;
-	font-size: 17px;
+	font-size: 18px;
 	color: #3B3735;
 	text-align: center;
 	margin-top: 15px;
@@ -295,6 +295,45 @@ li {
 	border-radius: 25px;
 	margin: 0 auto;
 	margin-top: 16px;
+}
+.more1 {
+	width: 185px;
+	height: 50px;
+	background-color: #f6f6f6;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 34px;
+}
+.more2 {
+	width: 185px;
+	height: 50px;
+	background-color: #f6f6f6;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 21px;
+}
+.more3 {
+	width: 185px;
+	height: 50px;
+	background-color: #f6f6f6;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.more4 {
+	width: 185px;
+	height: 50px;
+	background-color: #f6f6f6;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 23px;
+}
+.more:hover,
+.more1:hover,
+.more2:hover,
+.more3:hover,
+.more4:hover {
+	background-color: mistyrose;
 }
 .h2 {
 	font-family: Roboto;
