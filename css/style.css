@@ -110,7 +110,7 @@ li {
 	padding-top: 60px;
 	padding-bottom: 20px;
 }
-.h1 {
+.h2-6 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 18px;
@@ -126,7 +126,7 @@ li {
 	color: #3B3735;
 	text-align: center;
 }
-.h1-2 {
+.h2-7 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 18px;
@@ -135,7 +135,7 @@ li {
 	padding-bottom: 20px;
 	text-align: center;
 }
-.h1-3 {
+.h2-8 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 18px;
@@ -162,7 +162,7 @@ li {
 	width: 89px;
 	height: 89px;
 }
-.h1-4 {
+.h2-9 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 40px;
@@ -209,7 +209,7 @@ li {
 	margin-bottom: 30px;
 	border-radius: 20px;
 }
-.h1-5 {
+.h2-10 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -272,7 +272,7 @@ li {
 	text-align: center;
 	margin-top: 13px;
 }
-.h1-6 {
+.h2-11 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 25px;
@@ -382,7 +382,7 @@ li {
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 }
-.h1-8 {
+.h2-13 {
 	max-width: 615px;
 	width: 100%;
 	height: 25px;
@@ -404,7 +404,7 @@ li {
 	text-align: center;
 	margin-top: 15px;
 }
-.h1-7 {
+.h2-12 {
 	font-family: Roboto;
 	font-weight: Regular;
 	font-size: 16px;
@@ -436,6 +436,7 @@ li {
 
 
 
+
 /*Transport Page*/
 .header2 {
 	max-width: 1980px;
@@ -458,8 +459,10 @@ li {
 	max-width: 1920px;
 	width: 100%;
 	height: 300px;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
-.h1-13 {
+.h2-18 {
 	position: relative;
 	padding-top: 110px;
 	font-family: Archivo;
@@ -489,7 +492,7 @@ li {
 	        justify-content: space-between;
 	margin-top: 20px;
 }
-.h1-9 {
+.h2-14 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -528,11 +531,11 @@ li {
 	    -ms-flex-align: end;
 	        align-items: flex-end;
 }
-.h1-10 {
+.h2-15 {
 	font-weight: bold;
 	font-size: 27px;
 }
-.h1-11 {
+.h2-16 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -636,7 +639,7 @@ li {
 .tours-section {
 	margin: 0 auto;
 }
-.h1-12 {
+.h2-17 {
 	margin-top: 30px;
 	font-family: Archivo;
 	font-weight: bold;
@@ -700,7 +703,7 @@ li {
 .h2-4 {
 	font-size: 22px;
 }
-.h1-14 {
+.h2-19 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -711,7 +714,7 @@ li {
 	        align-items: center;
 	margin-top: 20px;
 }
-.h1-15 {
+.h2-20 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -722,14 +725,14 @@ li {
 	        align-items: center;
 	margin-top: 40px;
 }
-.h1-16 {
+.h2-21 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 29px;
 	color: #3B3735;
 	text-align: center;
 }
-.h1-17 {
+.h2-22 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -740,7 +743,7 @@ li {
 	        align-items: center;
 	margin-top: 41px;
 }
-.h1-18 {
+.h2-23 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -751,7 +754,7 @@ li {
 	        align-items: center;
 	margin-top: 20px;
 }
-.h1-19 {
+.h2-24 {
 	font-family: Archivo;
 	font-weight: bold;
 	font-size: 30px;
@@ -765,7 +768,7 @@ li {
 /*Hotel Page*/
 
 /*Tours Page*/
-.h1-20 {
+.h2-25 {
 	position: relative;
 	padding-top: 110px;
 	font-family: Archivo;
@@ -1003,11 +1006,11 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
-.h1-21 {
+.h2-26 {
 	text-align: center;
 	font-size: 25px;
 }
-.h1-22 {
+.h2-27 {
 	font-size: 25px;
 }
 
